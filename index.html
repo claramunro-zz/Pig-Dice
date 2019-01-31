@@ -11,22 +11,35 @@
 
     <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 padding text-center">
-                    <h1>Title</h1>
-                    <form id="form">
-                        <input id="inputName" type="text" value="" required>
-                        <input id="input" type="number" value="" required>
-                    </form>
-                </div>
-              </div>
-            </div>
 
-          <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-12 padding text-center">
-                    <p id="output"></p>
-                    <button id="button" class="btn btn-primary btn-lg" type="submit">LEGGO</button>
+                <div class="col-md-6 padding text-center">
+                  <!-- <p id="alert1"></p> -->
+                  <div id="player1">
+                    <h1>Player 1</h1>
+                    <p>Player 1 Current Roll:<br><span id="player1CurrentScore"></p>
+                      <p>Player 1 Current Total Round Score:<br><span id="player1TotalRoundScore"></p>
+                        <p>Player 1 Total Score:<br><span id="player1TotalScore"></p>
+                      <div id="buttonsPlayer1">
+                    <button id="rolldice1" class="btn btn-lg" type="submit">ROll DICE</button>
+                    <button id="hold1" class="btn btn-lg" type="submit">HOLD</button>
+                      </div>
+                  </div>
                 </div>
+
+                <div class="col-md-6 padding text-center">
+                  <!-- <p id="alert2"></p> -->
+                    <div id="player2">
+                    <h1>Player 2</h1>
+                    <p>Player 2 Current Roll:<br><span id="player2CurrentScore"></p>
+                      <p>Player 2 Current Total Round Score:<br><span id="player2TotalRoundScore"></p>
+                        <p>Player 2 Total Score:<br><span id="player2TotalScore"></p>
+                      <div id="buttonsPlayer2">
+                    <button id="rolldice2" class="btn btn-lg" type="submit">ROll DICE</button>
+                    <button id="hold2" class="btn btn-lg" type="submit">HOLD</button>
+                      </div>
+                  </div>
+                </div>
+
               </div>
             </div>
 
